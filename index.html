@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet" />
+
+    <title>Paul Patel Photography</title>
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">
+        <a href="index.html">
+          <span class="first-line">Paul Patel</span><br />
+          <span class="second-line">Photography</span>
+        </a>
+      </div>
+      <div>
+        <ul role="list" class="nav-links">
+          <li>
+            <a href="nature.html#nature" onclick="toggleMenu()">Nature</a>
+          </li>
+          <li>
+            <a href="wildlife.html#wildlife" onclick="toggleMenu()">Wildlife</a>
+          </li>
+          <li>
+            <a href="people.html#people" onclick="toggleMenu()">People</a>
+          </li>
+          <li>
+            <a href="architecture.html#architecture" onclick="toggleMenu()"
+              >Architecture</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">
+        <a href="index.html">
+          <span class="first-line">Paul Patel</span><br />
+          <span class="second-line">Photography</span>
+        </a>
+      </div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <!-- <span></span> -->
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <ul role="list" class="nav-links">
+            <li>
+              <a href="nature.html#nature" onclick="toggleMenu()">Nature</a>
+            </li>
+            <li>
+              <a href="wildlife.html#wildlife" onclick="toggleMenu()"
+                >Wildlife</a
+              >
+            </li>
+            <li>
+              <a href="people.html#people" onclick="toggleMenu()">People</a>
+            </li>
+            <li>
+              <a href="architecture.html#architecture" onclick="toggleMenu()"
+                >Architecture</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section class="intro__section">
+      <div class="intro__photo">
+        <img src="images/me.jpg" alt="" />
+      </div>
+      <div class="intro__text">
+        <p class="hello">Hello,</p>
+        <p>
+          Contrary to popular belief, Lorem Ipsum is not simply random text. It
+          has roots in a piece of classical Latin literature from 45 BC, making
+          it over 2000 years old. Richard McClintock, a Latin professor at
+          Hampden-Sydney College in Virginia, looked up one of the more obscure
+          Latin words, consectetur, from a Lorem Ipsum passage, and going
+          through the cites of the word in classical literature, discovered the
+          undoubtable source. Lorem Ipsum comes from sections 1.10.32 and
+          1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and
+          Evil) by Cicero, written in 45 BC. This book is a treatise on the
+          theory of ethics, very popular during the Renaissance. The first line
+          of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in
+          section 1.10.32. The standard chunk of Lorem Ipsum used since the
+          1500s is reproduced below for those interested. Sections 1.10.32 and
+          1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also
+          reproduced in their exact original form, accompanied by English
+          versions from the 1914 translation by H. Rackham.
+        </p>
+        <!-- <div class="btn">
+          <a href=""btn__primary">Get in touch</a>
+        </div> -->
+        <h1>Let's connect</h1>
+        <div class="social__icons">
+          <ul role="list" class="social-links">
+            <li>
+              <a href="https://www.instagram.com/paulpatelphotography/"
+                ><ion-icon name="logo-instagram"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/paulvipulpatel"
+                ><ion-icon name="logo-facebook"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/paul-patel-59bba052/"
+                ><ion-icon name="logo-linkedin"></ion-icon
+              ></a>
+            </li>
+            <p>@</p>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
