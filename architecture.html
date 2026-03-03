@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="grid.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet" />
+
+    <title>Paul Patel Photography</title>
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">
+        <a href="index.html">
+          <span class="first-line">Paul Patel</span><br />
+          <span class="second-line">Photography</span>
+        </a>
+      </div>
+      <div>
+        <ul role="list" class="nav-links">
+          <li>
+            <a href="nature.html#nature" onclick="toggleMenu()">Nature</a>
+          </li>
+          <li>
+            <a href="wildlife.html#wildlife" onclick="toggleMenu()">Wildlife</a>
+          </li>
+          <li>
+            <a href="people.html#people" onclick="toggleMenu()">People</a>
+          </li>
+          <li>
+            <a href="architecture.html#architecture" onclick="toggleMenu()"
+              >Architecture</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">
+        <a href="index.html">
+          <span class="first-line">Paul Patel</span><br />
+          <span class="second-line">Photography</span>
+        </a>
+      </div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <!-- <span></span> -->
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <ul role="list" class="nav-links">
+            <li>
+              <a href="nature.html#nature" onclick="toggleMenu()">Nature</a>
+            </li>
+            <li>
+              <a href="wildlife.html#wildlife" onclick="toggleMenu()"
+                >Wildlife</a
+              >
+            </li>
+            <li>
+              <a href="people.html#people" onclick="toggleMenu()">People</a>
+            </li>
+            <li>
+              <a href="architecture.html#architecture" onclick="toggleMenu()"
+                >Architecture</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section id="architecture" class="grid__section">
+      <div class="grid__container">
+        <figure>
+          <img src="images/goldengate.jpg" alt="Golden Gate Bridge" />
+          <figcaption>Golden Gate Bridge, SF</figcaption>
+        </figure>
+        <figure>
+          <img src="images/goldentgate1.jpg" alt="Golden Gate Bridge" />
+          <figcaption>Golden Gate Bridge, SF</figcaption>
+        </figure>
+        <figure>
+          <img src="images/goldenGateBridge2.jpg" alt="Golden Gate Bridge" />
+          <figcaption>Golden Gate Bridge, SF</figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="images/sandiego-lavalenciahotel.avif"
+            alt="Go Architecture" />
+          <figcaption>La Jolla, CA</figcaption>
+        </figure>
+        <figure>
+          <img src="images/spain-ronda.jpg" alt="Roda" />
+          <figcaption>Roda, Spain</figcaption>
+        </figure>
+        <figure>
+          <img src="images/spain-barcelona.jpg" alt="city escape" />
+          <figcaption>Barcelona, Spain</figcaption>
+        </figure>
+        <figure>
+          <img src="images/pobelespanyol-barcelona.jpg" alt="Poble Espanyol" />
+          <figcaption>Barcelona, Spain</figcaption>
+        </figure>
+        <figure>
+          <img src="images/spain-bullring.avif" alt="bullring" />
+          <figcaption>Barcelon, Spain</figcaption>
+        </figure>
+        <figure>
+          <img src="images/spain-cathedral1.avif" alt="Cathedral" />
+          <figcaption>Madrid, Spain</figcaption>
+        </figure>
+        <figure>
+          <img src="images/spain-lavangardia.avif" alt="Building" />
+          <figcaption>Barcelon, Spain</figcaption>
+        </figure>
+        <figure>
+          <img src="images/spain-restaurent.avif" alt="Restaurent" />
+          <figcaption>Barcelona, Spain</figcaption>
+        </figure>
+        <figure>
+          <img src="images/spain-smallchurch.jpg" alt="" />
+          <figcaption>Barcelona, Spain</figcaption>
+        </figure>
+
+        <figure>
+          <img src="images/italy-florence.jpg" alt="Florence, Italy" />
+          <figcaption>Florence, Italy</figcaption>
+        </figure>
+        <figure>
+          <img src="images/london.jpg" alt="London" />
+          <figcaption>London</figcaption>
+        </figure>
+        <figure>
+          <img src="images/spain-cadaques.jpg" alt="Cadaques" />
+          <figcaption>Cadaques, Spain</figcaption>
+        </figure>
+        <figure>
+          <img src="images/spain-cadaques2.jpeg" alt="Cadaques" />
+          <figcaption>Cadaques, Spain</figcaption>
+        </figure>
+      </div>
+    </section>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>

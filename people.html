@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="grid.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet" />
+
+    <title>Paul Patel Photography</title>
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">
+        <a href="index.html">
+          <span class="first-line">Paul Patel</span><br />
+          <span class="second-line">Photography</span>
+        </a>
+      </div>
+      <div>
+        <ul role="list" class="nav-links">
+          <li>
+            <a href="nature.html#nature" onclick="toggleMenu()">Nature</a>
+          </li>
+          <li>
+            <a href="wildlife.html#wildlife" onclick="toggleMenu()">Wildlife</a>
+          </li>
+          <li>
+            <a href="people.html#people" onclick="toggleMenu()">People</a>
+          </li>
+          <li>
+            <a href="architecture.html#architecture" onclick="toggleMenu()"
+              >Architecture</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">
+        <a href="index.html">
+          <span class="first-line">Paul Patel</span><br />
+          <span class="second-line">Photography</span>
+        </a>
+      </div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <!-- <span></span> -->
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <ul role="list" class="nav-links">
+            <li>
+              <a href="nature.html#nature" onclick="toggleMenu()">Nature</a>
+            </li>
+            <li>
+              <a href="wildlife.html#wildlife" onclick="toggleMenu()"
+                >Wildlife</a
+              >
+            </li>
+            <li>
+              <a href="people.html#people" onclick="toggleMenu()">People</a>
+            </li>
+            <li>
+              <a href="architecture.html#architecture" onclick="toggleMenu()"
+                >Architecture</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section id="people" class="grid__section">
+      <div class="grid__container">
+        <figure>
+          <img src="images/sandiego-kids.avif" alt="Childern at the beach" />
+          <figcaption>La Jolla, CA</figcaption>
+        </figure>
+        <figure>
+          <img src="images/spain-bicyclist.jpg" alt="Bicyclist" />
+          <figcaption>Barcelona, Spain</figcaption>
+        </figure>
+        <figure>
+          <img src="images/spain-boqueria.jpg" alt="Market" />
+          <figcaption>Boqueria Market Barcelona, Spain</figcaption>
+        </figure>
+        <figure>
+          <img
+            src="images/spain-photographer.jpg"
+            alt="Photographer in alley" />
+          <figcaption>Barcelona, Spain</figcaption>
+        </figure>
+        <figure>
+          <img src="images/spain-ladyonstairs.jpg" alt="Italian Festival" />
+          <figcaption>Girona, Spain</figcaption>
+        </figure>
+        <figure>
+          <img src="images/spain-manwithumbrella.avif" alt="Italian Festival" />
+          <figcaption>Madrid, Spain</figcaption>
+        </figure>
+        <figure>
+          <img src="images/spain-seville.jpg" alt="People waling in street" />
+          <figcaption>Seville, Spain</figcaption>
+        </figure>
+        <figure>
+          <img src="images/spain-twopeople.jpg" alt="Man and women" />
+          <figcaption>Seville, Spain</figcaption>
+        </figure>
+        <figure>
+          <img src="images/spain-contractor.jpg" alt="Construction worker" />
+          <figcaption>Barcelona, Spain</figcaption>
+        </figure>
+        <figure>
+          <img src="images/spain-cafe.jpg" alt="Cafe" />
+          <figcaption>Malaga, Spain</figcaption>
+        </figure>
+        <figure>
+          <img
+            src="images/sanjose-italianfestival1.jpg"
+            alt="People walking in street" />
+          <figcaption>San jose, CA</figcaption>
+        </figure>
+        <figure>
+          <img src="images/sanjose-italianfestival2.jpg" alt="Man cooking" />
+          <figcaption>San Jose, CA</figcaption>
+        </figure>
+        <figure>
+          <img
+            src="images/sanjose-italianfestival3.avif"
+            alt="Italian Festival" />
+          <figcaption>San Jose, CA</figcaption>
+        </figure>
+        <figure>
+          <img src="images/tram1.jpg" alt="Trolley buse " />
+          <figcaption>San Francisco, CA</figcaption>
+        </figure>
+        <figure>
+          <img src="images/tram2.jpg" alt="Trolley buse" />
+          <figcaption>San Francisco, CA</figcaption>
+        </figure>
+        <figure>
+          <img src="images/tram3.jpg" alt="Trolley bus" />
+          <figcaption>San Francisco, CA</figcaption>
+        </figure>
+        <figure>
+          <img src="images/tram4.avif" alt="Trolley buse" />
+          <figcaption>San Francisco, CA</figcaption>
+        </figure>
+        <figure>
+          <img src="images/sanjose-pizzaguy.jpg" alt="Pizza guy" />
+          <figcaption>San Jose, CA</figcaption>
+        </figure>
+        <figure>
+          <img src="images/sanjose-littleitaly.jpg" alt="Pizza guy" />
+          <figcaption>San Jose, CA</figcaption>
+        </figure>
+        <figure>
+          <img src="images/volleyballGame.avif" alt="Pizza guy" />
+          <figcaption>San Frcancisco, CA</figcaption>
+        </figure>
+      </div>
+    </section>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>

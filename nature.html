@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="grid.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet" />
+
+    <title>Paul Patel Photography</title>
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">
+        <a href="index.html">
+          <span class="first-line">Paul Patel</span><br />
+          <span class="second-line">Photography</span>
+        </a>
+      </div>
+      <div>
+        <ul role="list" class="nav-links">
+          <li>
+            <a href="nature.html#nature" onclick="toggleMenu()">Nature</a>
+          </li>
+          <li>
+            <a href="wildlife.html#wildlife" onclick="toggleMenu()">Wildlife</a>
+          </li>
+          <li>
+            <a href="people.html#people" onclick="toggleMenu()">People</a>
+          </li>
+          <li>
+            <a href="architecture.html#architecture" onclick="toggleMenu()"
+              >Architecture</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">
+        <a href="index.html">
+          <span class="first-line">Paul Patel</span><br />
+          <span class="second-line">Photography</span>
+        </a>
+      </div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <!-- <span></span> -->
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <ul role="list" class="nav-links">
+            <li>
+              <a href="nature.html#nature" onclick="toggleMenu()">Nature</a>
+            </li>
+            <li>
+              <a href="wildlife.html#wildlife" onclick="toggleMenu()"
+                >Wildlife</a
+              >
+            </li>
+            <li>
+              <a href="people.html#people" onclick="toggleMenu()">People</a>
+            </li>
+            <li>
+              <a href="architecture.html#architecture" onclick="toggleMenu()"
+                >Architecture</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section id="nature" class="grid__section">
+      <div class="grid__container">
+        <figure>
+          <img src="images/pointBonita.jpg" alt="Point Bonita" />
+          <figcaption>Point Bonita, SF</figcaption>
+        </figure>
+        <figure>
+          <img src="images/Sunset1.jpg" alt="Sunset" />
+          <figcaption>Fremont, CA</figcaption>
+        </figure>
+        <figure>
+          <img src="images/brookings-oregon1.jpg" alt="Sunset" />
+          <figcaption>Boorkings, OR</figcaption>
+        </figure>
+        <figure>
+          <img src="images/brookings-oregon2.jpg" alt="Sunset" />
+          <figcaption>Boorkings, OR</figcaption>
+        </figure>
+        <figure>
+          <img src="images/mossbraefalls.jpg" alt="Mossbrae Falls" />
+          <figcaption>Dunsmuir, CA</figcaption>
+        </figure>
+        <figure>
+          <img src="images/mcCloudMiddleFalls.jpg" alt="McCloud middle falls" />
+          <figcaption>McCloud, CA</figcaption>
+        </figure>
+        <figure>
+          <img src="images/mcCloudUpperFalls1.jpg" alt="McCloud upper falls" />
+          <figcaption>McCloud, CA</figcaption>
+        </figure>
+        <figure>
+          <img src="images/mcCloudUpperFalls2.jpg" alt="McCloud upper falls" />
+          <figcaption>McCloud, CA</figcaption>
+        </figure>
+        <figure>
+          <img src="images/shashta-lake.jpeg" alt="Mount Shasta" />
+          <figcaption>Mount Shasta, CA</figcaption>
+        </figure>
+        <figure>
+          <img src="images/maui-beach1.jpg" alt="Wave at the beach" />
+          <figcaption>Maui, Hawaii</figcaption>
+        </figure>
+        <figure>
+          <img src="images/maui-sinkhole.jpg" alt="Wave at the beach" />
+          <figcaption>Maui, Hawaii</figcaption>
+        </figure>
+        <figure>
+          <img src="images/maui-wave1.jpg" alt="Wave at the beach" />
+          <figcaption>Maui, Hawaii</figcaption>
+        </figure>
+        <figure>
+          <img src="images/maui-wave2.jpg" alt="Wave at the beach" />
+          <figcaption>Maui, Hawaii</figcaption>
+        </figure>
+        <figure>
+          <img src="images/maui-wave3.jpg" alt="Wave at the beach" />
+          <figcaption>Maui, Hawaii</figcaption>
+        </figure>
+        <figure>
+          <img src="images/maui-sunset1.jpg" alt="Wave at the beach" />
+          <figcaption>Maui, Hawaii</figcaption>
+        </figure>
+        <figure>
+          <img src="images/maui-sunset2.jpg" alt="Wave at the beach" />
+          <figcaption>Maui, Hawaii</figcaption>
+        </figure>
+        <figure>
+          <img src="images/Grass and water.avif" alt="Grass and water" />
+          <figcaption>Fremont, CA</figcaption>
+        </figure>
+      </div>
+    </section>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet" />
+
+    <title>Paul Patel Photography</title>
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">
+        <a href="index.html">
+          <span class="first-line">Paul Patel</span><br />
+          <span class="second-line">Photography</span>
+        </a>
+      </div>
+      <div>
+        <ul role="list" class="nav-links">
+          <li>
+            <a href="nature.html#nature" onclick="toggleMenu()">Nature</a>
+          </li>
+          <li>
+            <a href="wildlife.html#wildlife" onclick="toggleMenu()">Wildlife</a>
+          </li>
+          <li>
+            <a href="people.html#people" onclick="toggleMenu()">People</a>
+          </li>
+          <li>
+            <a href="architecture.html#architecture" onclick="toggleMenu()"
+              >Architecture</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">
+        <a href="index.html">
+          <span class="first-line">Paul Patel</span><br />
+          <span class="second-line">Photography</span>
+        </a>
+      </div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <!-- <span></span> -->
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <ul role="list" class="nav-links">
+            <li>
+              <a href="nature.html#nature" onclick="toggleMenu()">Nature</a>
+            </li>
+            <li>
+              <a href="wildlife.html#wildlife" onclick="toggleMenu()"
+                >Wildlife</a
+              >
+            </li>
+            <li>
+              <a href="people.html#people" onclick="toggleMenu()">People</a>
+            </li>
+            <li>
+              <a href="architecture.html#architecture" onclick="toggleMenu()"
+                >Architecture</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section class="intro__section">
+      <div class="intro__photo">
+        <img src="images/me.jpg" alt="" />
+      </div>
+      <div class="intro__text">
+        <p class="hello">Hello,</p>
+        <p>
+          I’m a photographer based in the San Francisco Bay Area. I don’t have a
+          manifesto or a polished artist statement, I simply love photographing
+          everything and anything that catches my eye. I feel most at home with
+          a camera in my hands.
+        </p>
+        <p>My goal is simple: Preseve a monent through photography.</p>
+        <p>
+          If you’re interested in a particular image and would like to turn it
+          into a print for your home/business, or if you’d like to schedule a
+          photography session for an event, I’d love to connect. I’ll make the
+          process easy, comfortable, and fun.
+        </p>
+        <!-- <div class="btn">
+          <a href=""btn__primary">Get in touch</a>
+        </div> -->
+        <h1>Let's connect</h1>
+        <div class="social__icons">
+          <ul role="list" class="social-links">
+            <li>
+              <a href="https://www.instagram.com/paulpatelphotography/"
+                ><ion-icon name="logo-instagram"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/paulvipulpatel"
+                ><ion-icon name="logo-facebook"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/paul-patel-59bba052/"
+                ><ion-icon name="logo-linkedin"></ion-icon
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <footer id="footer">
+      <div class="copyright">
+        &copy; Paul Patel Photography. All rights reserved.
+      </div>
+    </footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
