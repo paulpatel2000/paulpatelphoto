@@ -253,7 +253,8 @@ nav {
 .logo a {
   display: flex;
   flex-direction: column;
-  /* line-height: 1; */
+  line-height: 1;
+  gap: 0.2rem;
   text-decoration: none;
 }
 
@@ -583,6 +584,14 @@ footer {
   .logo a:hover {
     text-decoration: none;
     transform: none;
+  }
+
+  .logo a {
+    display: flex;
+    flex-direction: column;
+    line-height: 1;
+    gap: 0.2rem;
+    text-decoration: none;
   }
 
   .intro__section {
