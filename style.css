@@ -14,10 +14,11 @@
   --fw-semibold: 600;
   --fw-bold: 700;
 
-  --fs-300: 0.625rem;
-  --fs-400: 0.75rem;
-  --fs-500: 1rem;
-  --fs-600: 1.25rem;
+  --fs-300: 0.75rem; /* 12px */
+  --fs-400: 0.875rem; /* 14px */
+  --fs-500: 1rem; /* 16px */
+  --fs-600: 1.5rem; /* 24px */
+  --fs-700: 2rem; /* 32px */
 
   --nav-height: 2rem;
 }
@@ -67,6 +68,10 @@
 }
 .fs-600 {
   font-size: var(--fs-600);
+}
+
+.fs-700 {
+  font-size: var(--fs-700);
 }
 
 /* Box sizing rules */
@@ -218,19 +223,18 @@ nav a,
 .menu-links a {
   font-family: var(--ff-primary);
   font-weight: var(--fw-regular);
-  font-size: var(--fs-300);
+  font-size: var(--fs-600);
 }
 
 .logo .first-line {
   font-family: var(--ff-primary);
   font-weight: var(--fw-bold);
-  font-size: var(--fs-600);
+  font-size: var(--fs-500);
 }
 
 .logo .second-line {
   font-family: var(--ff-primary);
-  font-weight: var(--fw-light);
-  font-size: var(--fs-400);
+  font-size: var(--fs-600);
   letter-spacing: 2.25px;
 }
 
@@ -490,7 +494,7 @@ footer {
   /* background-color: red; */
 
   color: hsl(0, 0%, 71%);
-  font-size: var(--fs-400);
+  font-size: var(--fs-500);
   flex-direction: column;
   text-align: center;
   align-items: end;
@@ -505,15 +509,15 @@ footer {
     gap: 2rem;
     align-items: center;
     height: 5rem;
+  }
 
-    #hamburger-nav {
-      display: flex;
-      justify-content: space-between; /* Logo left, nav/hamburger right */
-      align-items: center;
-      padding-inline: 5%;
-      height: 5rem;
-      box-sizing: border-box;
-    }
+  #hamburger-nav {
+    display: flex;
+    justify-content: space-between; /* Logo left, nav/hamburger right */
+    align-items: center;
+    padding-inline: 2rem;
+    height: 5rem;
+    box-sizing: border-box;
   }
 }
 
@@ -535,7 +539,7 @@ footer {
   }
 
   #hamburger-nav .menu-links li a {
-    font-size: var(--fs-400);
+    font-size: var(--fs-500);
     font-family: var(--ff-primary);
     font-weight: var(--fw-regular);
     color: var(--clr-primary-400);
@@ -544,7 +548,7 @@ footer {
   .intro__section {
     flex-direction: column;
     gap: 4rem;
-    font-size: var(--fs-500);
+    font-size: var(--fs-600);
     font-weight: var(--fw-light);
     padding-top: 5rem;
     align-items: center;
@@ -584,7 +588,7 @@ footer {
     padding: 0 1.25rem;
     box-sizing: border-box;
     background: white;
-    height: 5rem;
+    height: 4rem;
   }
 
   .logo a:hover {
@@ -595,7 +599,7 @@ footer {
   .intro__section {
     flex-direction: column;
     gap: 4rem;
-    font-size: var(--fs-500);
+    font-size: var(--fs-600);
     font-weight: var(--fw-light);
     padding-top: 5rem;
     align-items: center;
