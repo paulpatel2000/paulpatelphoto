@@ -623,7 +623,15 @@ footer {
 }
 
 @media (hover: hover) and (pointer: fine) {
-  a:hover {
-    transform: scale(1.05);
+  #desktop-nav a:not(.logo a):hover,
+  #hamburger-nav .menu-links a:hover {
+    color: white;
+    background-color: var(--clr-primary-400);
+  }
+
+  .btn__primary:hover {
+    background-color: var(--clr-primary-400);
+    color: white;
+    padding: 0.5rem;
   }
 }
