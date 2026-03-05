@@ -221,7 +221,7 @@ nav {
 #hamburger-nav .menu-links a {
   font-size: var(--fs-400);
   font-weight: var(--fw-regular);
-  color: var(--clr-neutral-100);
+  color: var(--clr-primary-400);
   text-decoration: none;
   text-transform: uppercase;
   transition:
@@ -239,8 +239,7 @@ nav {
   margin: 0.15rem;
 }
 
-#desktop-nav a:not(.logo a):hover,
-#hamburger-nav .menu-links a:hover {
+#desktop-nav a:not(.logo a):hover {
   color: white;
   background-color: var(--clr-primary-400);
   /* padding: 0.25rem 0.25rem; */
@@ -253,8 +252,8 @@ nav {
 .logo a {
   display: flex;
   flex-direction: column;
-  line-height: 0.7;
-  gap: 0.1rem;
+  line-height: 1;
+  gap: 0.2rem;
   text-decoration: none;
 }
 
@@ -425,7 +424,7 @@ section {
   color: var(--clr-primary-400);
   cursor: pointer;
 }
-.btn__primary:hover {
+:hover.btn__primary {
   background-color: var(--clr-primary-400);
   color: white;
   padding: 0.5rem 0.5rem;
@@ -479,10 +478,10 @@ footer {
   text-align: right;
   align-items: end;
   padding: 0.5rem 2rem;
-  margin-top: 23rem;
+  margin-top: 22rem;
 }
 
-/*largetablets)*/
+/*Largetablets)*/
 @media screen and (max-width: 1200px) {
   #desktop-nav,
   #desktop-nav .nav-links {
@@ -572,13 +571,13 @@ footer {
 
   #hamburger-nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; /* Logo left, nav/hamburger right */
     align-items: center;
-    width: 100%; /* FULL WIDTH */
-    padding: 0 1.5rem 0 0.75rem;
+    max-width: 100%;
+    margin: 0 auto;
+    padding-inline: 1rem;
+    height: 5rem;
     box-sizing: border-box;
-    background: white;
-    height: 4rem;
   }
 
   .logo a:hover {
@@ -589,8 +588,8 @@ footer {
   .logo a {
     display: flex;
     flex-direction: column;
-    line-height: 0.7;
-    gap: 0.1rem;
+    line-height: 1;
+    gap: 0.2rem;
     text-decoration: none;
   }
 
@@ -623,15 +622,7 @@ footer {
 }
 
 @media (hover: hover) and (pointer: fine) {
-  #desktop-nav a:not(.logo a):hover,
-  #hamburger-nav .menu-links a:hover {
-    color: white;
-    background-color: var(--clr-primary-400);
-  }
-
-  .btn__primary:hover {
-    background-color: var(--clr-primary-400);
-    color: white;
-    padding: 0.5rem;
+  a:hover {
+    transform: scale(1.05);
   }
 }
