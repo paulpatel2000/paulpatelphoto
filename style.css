@@ -589,7 +589,7 @@ footer {
   .logo a {
     display: flex;
     flex-direction: column;
-    line-height: 1;
+    line-height: 0;
     gap: 0.1rem;
     text-decoration: none;
   }
