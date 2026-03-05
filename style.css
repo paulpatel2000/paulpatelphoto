@@ -622,3 +622,9 @@ footer {
     margin-top: 0.25rem;
   }
 }
+
+@media (hover: hover) and (pointer: fine) {
+  a:hover {
+    transform: scale(1.05);
+  }
+}
