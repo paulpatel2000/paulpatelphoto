@@ -572,14 +572,13 @@ footer {
 
   #hamburger-nav {
     display: flex;
-    justify-content: start;
+    justify-content: space-between;
     align-items: center;
     width: 100%; /* FULL WIDTH */
     padding: 0 1.5rem 0 0.75rem;
     box-sizing: border-box;
     background: white;
     height: 4rem;
-    gap: 250px;
   }
 
   .logo a:hover {
