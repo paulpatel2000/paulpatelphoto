@@ -579,7 +579,7 @@ footer {
     box-sizing: border-box;
     background: white;
     height: 4rem;
-    gap: 275px;
+    gap: 250px;
   }
 
   .logo a:hover {
