@@ -217,11 +217,10 @@ nav {
   box-sizing: border-box;
 }
 
-#desktop-nav a:not(.logo a),
-#hamburger-nav .menu-links a {
+#desktop-nav a:not(.logo a) {
   font-size: var(--fs-400);
   font-weight: var(--fw-regular);
-  color: var(--clr-primary-400);
+  color: var(--clr-neutral-100);
   text-decoration: none;
   text-transform: uppercase;
   transition:
