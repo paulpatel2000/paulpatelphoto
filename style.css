@@ -621,11 +621,4 @@ footer {
     padding: 0.5rem 2rem;
     margin-top: 0.25rem;
   }
-
-  #desktop-nav a:not(.logo a):hover,
-  #hamburger-nav .menu-links a:hover {
-    color: rgb(252, 252, 252);
-
-    /* padding: 0.25rem 0.25rem; */
-  }
 }
