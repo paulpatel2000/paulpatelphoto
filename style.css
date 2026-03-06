@@ -588,7 +588,7 @@ footer {
   .logo a {
     display: flex;
     flex-direction: column;
-    line-height: 0.7;
+    line-height: 1;
     text-decoration: none;
   }
 
