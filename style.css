@@ -535,18 +535,6 @@ footer {
     color: var(--clr-primary-400);
   }
 
-  /* logo */
-  .logo a {
-    display: flex;
-    flex-direction: column;
-    line-height: 1;
-    text-decoration: none;
-  }
-
-  .logo .first-line {
-    margin-bottom: 2px;
-  }
-
   .intro__section {
     flex-direction: column;
     gap: 4rem;
