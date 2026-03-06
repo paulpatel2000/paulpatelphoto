@@ -251,8 +251,8 @@ nav {
 .logo a {
   display: flex;
   flex-direction: column;
-  line-height: 0.1;
-  gap: 0.2rem;
+  line-height: 1;
+  gap: 0.1rem;
   text-decoration: none;
 }
 
