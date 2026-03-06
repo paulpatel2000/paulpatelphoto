@@ -483,12 +483,16 @@ footer {
 
 /*Largetablets)*/
 @media screen and (max-width: 1200px) {
-  #desktop-nav,
+  /* #desktop-nav,
   #desktop-nav .nav-links {
     display: flex;
     gap: 2rem;
     align-items: center;
     height: 5rem;
+  } */
+
+  #desktop-nav {
+    display: none;
   }
 
   #hamburger-nav {
@@ -498,6 +502,14 @@ footer {
     padding-inline: 1rem;
     height: 5rem;
     box-sizing: border-box;
+  }
+
+  .logo a {
+    display: flex;
+    flex-direction: column;
+    line-height: 1;
+    gap: 0.1rem;
+    text-decoration: none;
   }
 
   footer {
@@ -535,11 +547,12 @@ footer {
   }
 
   .logo a {
-  display: flex;
-  flex-direction: column;
-  line-height: 0.1;
-  gap: 0.2rem;
-  text-
+    display: flex;
+    flex-direction: column;
+    line-height: 1;
+    gap: 0.1rem;
+    text-decoration: none;
+  }
 
   .intro__section {
     flex-direction: column;
@@ -596,7 +609,7 @@ footer {
   .logo a {
     display: flex;
     flex-direction: column;
-    line-height: 0.7;
+    line-height: 1;
     gap: 0.1rem;
     text-decoration: none;
   }
