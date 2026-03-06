@@ -487,14 +487,6 @@ footer {
 
 /* ///////////// Large tablet ///////////////// */
 @media screen and (max-width: 1200px) {
-  /* #desktop-nav,
-  #desktop-nav .nav-links {
-    display: flex;
-    gap: 2rem;
-    align-items: center;
-    height: 5rem;
-  } */
-
   #desktop-nav {
     display: none;
   }
@@ -541,6 +533,18 @@ footer {
     font-family: var(--ff-primary);
     font-weight: var(--fw-regular);
     color: var(--clr-primary-400);
+  }
+
+  /* logo */
+  .logo a {
+    display: flex;
+    flex-direction: column;
+    line-height: 1;
+    text-decoration: none;
+  }
+
+  .logo .first-line {
+    margin-bottom: 2px;
   }
 
   .intro__section {
