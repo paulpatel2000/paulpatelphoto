@@ -78,4 +78,9 @@ figure figcaption {
     border-radius: 0;
     padding: 3px 7px;
   }
+
+  .grid__container figure {
+    break-inside: avoid;
+    margin-bottom: 0.75rem;
+  }
 }
