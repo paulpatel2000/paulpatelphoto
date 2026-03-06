@@ -584,6 +584,18 @@ footer {
     box-sizing: border-box;
   }
 
+  /* logo */
+  .logo a {
+    display: flex;
+    flex-direction: column;
+    line-height: 1;
+    text-decoration: none;
+  }
+
+  .logo .first-line {
+    margin-bottom: 2px;
+  }
+
   .logo a:hover {
     text-decoration: none;
     transform: none;
