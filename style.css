@@ -578,7 +578,8 @@ footer {
 
   #hamburger-nav {
     display: flex;
-    justify-content: space-between; /* Logo left, nav/hamburger right */
+    justify-content: space-between;
+    /*Logoleft,nav/hamburgerright*/
     align-items: center;
     max-width: 100%;
     margin: 0 auto;
@@ -625,11 +626,5 @@ footer {
   footer {
     padding: 0.5rem 2rem;
     margin-top: 0.25rem;
-  }
-}
-
-@media (hover: hover) and (pointer: fine) {
-  a:hover {
-    transform: scale(1.05);
   }
 }
