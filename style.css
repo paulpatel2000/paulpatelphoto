@@ -248,7 +248,7 @@ nav {
   color: var(--clr-primary-400);
 }
 
-.logo a {
+#dektop-nav .logo a {
   display: flex;
   flex-direction: column;
   line-height: 1;
