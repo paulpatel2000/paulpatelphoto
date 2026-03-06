@@ -484,14 +484,6 @@ footer {
 /* /////////////// Largetablets ////////////////////// */
 
 @media screen and (max-width: 1200px) {
-  /* #desktop-nav,
-  #desktop-nav .nav-links {
-    display: flex;
-    gap: 2rem;
-    align-items: center;
-    height: 5rem;
-  } */
-
   #desktop-nav {
     display: none;
   }
@@ -501,7 +493,7 @@ footer {
     justify-content: space-between; /* Logo left, nav/hamburger right */
     align-items: center;
     padding-inline: 1rem;
-    height: 5rem;
+    height: 4rem;
     box-sizing: border-box;
   }
 
@@ -529,7 +521,7 @@ footer {
     max-width: 768px;
     margin: 0 auto;
     padding-inline: 1rem;
-    height: 5rem;
+    height: 4rem;
     box-sizing: border-box;
   }
 
