@@ -81,6 +81,6 @@ figure figcaption {
 
   .grid__container figure {
     break-inside: avoid;
-    margin-bottom: 0.75rem;
+    margin-bottom: 0.5rem;
   }
 }
