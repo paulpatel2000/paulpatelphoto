@@ -481,7 +481,7 @@ footer {
   margin-top: 22rem;
 }
 
-/*Largetablets)*/
+/* ///////////// Large tablet ///////////////// */
 @media screen and (max-width: 1200px) {
   /* #desktop-nav,
   #desktop-nav .nav-links {
@@ -522,7 +522,8 @@ footer {
   }
 }
 
-/* Tablets */
+/* ///////////////// Tablets //////////// */
+
 @media screen and (max-width: 768px) {
   #desktop-nav {
     display: none;
@@ -583,6 +584,8 @@ footer {
     margin-top: 0.25rem;
   }
 }
+
+/* //////////////////// Mobile//////////////// */
 
 @media screen and (max-width: 500px) {
   #desktop-nav {
