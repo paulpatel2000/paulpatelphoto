@@ -488,14 +488,6 @@ footer {
     display: none;
   }
 
-  .logo a {
-    display: flex;
-    flex-direction: column;
-    line-height: 1;
-    gap: 0.1rem;
-    text-decoration: none;
-  }
-
   #hamburger-nav {
     display: flex;
     justify-content: space-between; /* Logo left, nav/hamburger right */
@@ -574,6 +566,14 @@ footer {
 @media screen and (max-width: 500px) {
   #desktop-nav {
     display: none;
+  }
+
+  .logo a {
+    display: flex;
+    flex-direction: column;
+    line-height: 1;
+    gap: 0.1rem;
+    text-decoration: none;
   }
 
   #hamburger-nav {
