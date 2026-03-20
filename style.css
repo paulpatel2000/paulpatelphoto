@@ -607,7 +607,7 @@ footer {
     gap: 4rem;
     font-size: var(--fs-600);
     font-weight: var(--fw-light);
-    padding-top: 5rem;
+    padding-top: 3rem;
     align-items: center;
   }
 
