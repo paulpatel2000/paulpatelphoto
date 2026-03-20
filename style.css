@@ -624,6 +624,10 @@ footer {
     border-radius: 50%;
   }
 
+  .intro__text {
+    font-size: 1.2rem;
+  }
+
   footer {
     white-space: nowrap;
     padding: 0.5rem 1rem;
