@@ -625,6 +625,7 @@ footer {
   }
 
   footer {
+    white-space: nowrap;
     margin-top: 0.25rem;
   }
 }
