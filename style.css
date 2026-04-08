@@ -240,7 +240,7 @@ nav {
 #desktop-nav a:not(.logo a):hover {
   color: white;
   background-color: var(--clr-primary-400);
-  /* padding: 0.25rem 0.25rem; */
+  padding: 0.25rem 1rem;
 }
 
 #hamburger-nav .menu-links a:active {
