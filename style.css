@@ -630,12 +630,11 @@ footer {
     white-space: nowrap;
     overflow: hidden;
   }
-}
+  /* //////////////////// Mobile landscape//////////////// */
 
-/* //////////////////// Mobile landscape//////////////// */
-
-@media (orientation: landscape) {
-  #hamburger-nav {
-    display: none;
+  @media (orientation: landscape) {
+    #hamburger-nav {
+      display: none;
+    }
   }
 }
