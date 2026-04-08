@@ -634,6 +634,6 @@ footer {
 /* //////////////////// Mobile landscape//////////////// */
 @media (max-width: 500px) and (orientation: landscape) {
   #hamburger-nav {
-    display: none;
+    display: none !important;
   }
 }
