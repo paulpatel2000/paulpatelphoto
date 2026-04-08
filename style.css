@@ -196,7 +196,7 @@ btn {
 #desktop-nav,
 #desktop-nav .nav-links {
   display: flex;
-  gap: 2rem;
+  gap: 1.5rem;
   align-items: center;
   height: 5rem;
   padding: 0 1.25rem;
@@ -225,7 +225,7 @@ nav {
   transition:
     color 0.3s ease,
     transform 0.3s ease;
-  padding: 0.25rem 0.25rem;
+  padding: 0.25rem 0.75rem;
 }
 
 #hamburger-nav .menu-links a {
@@ -240,7 +240,6 @@ nav {
 #desktop-nav a:not(.logo a):hover {
   color: white;
   background-color: var(--clr-primary-400);
-  padding: 0.25rem 1rem;
 }
 
 #hamburger-nav .menu-links a:active {
