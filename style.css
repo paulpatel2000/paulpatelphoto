@@ -564,12 +564,7 @@ footer {
     margin-top: 0.25rem;
   }
 }
-/* //////////////////// Mobile landscape//////////////// */
-@media (max-width: 500px) and (orientation: landscape) {
-  #hamburger-nav {
-    display: none !important;
-  }
-}
+
 /* //////////////////// Mobile//////////////// */
 
 @media screen and (max-width: 500px) {
@@ -633,5 +628,12 @@ footer {
     padding: 0.5rem 1rem;
     white-space: nowrap;
     overflow: hidden;
+  }
+}
+
+/* //////////////////// Mobile landscape//////////////// */
+@media (max-width: 498px) and (orientation: landscape) {
+  #hamburger-nav {
+    display: none !important;
   }
 }
