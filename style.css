@@ -190,7 +190,7 @@ btn {
 /* Desktop nav */
 
 #hamburger-nav {
-  display: flex;
+  display: none;
 }
 
 #desktop-nav,
