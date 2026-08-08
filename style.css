@@ -603,7 +603,7 @@ footer {
   .intro__section {
     flex-direction: column;
     gap: 4rem;
-    font-size: var(--fs-400);
+    font-size: var(--fs-500);
     font-weight: var(--fw-light);
     padding-top: 3rem;
     align-items: center;
