@@ -17,6 +17,7 @@
   --fs-300: 0.75rem; /* 12px */
   --fs-400: 0.875rem; /* 14px */
   --fs-500: 1rem; /* 16px */
+  --fs-510: 1.125rem; /* 18px */
   --fs-600: 1.5rem; /* 24px */
   --fs-700: 2rem; /* 32px */
 
@@ -603,7 +604,7 @@ footer {
   .intro__section {
     flex-direction: column;
     gap: 4rem;
-    font-size: var(--fs-600);
+    font-size: var(--fs-510);
     font-weight: var(--fw-light);
     padding-top: 3rem;
     align-items: center;
